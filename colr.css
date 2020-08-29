@@ -1,0 +1,120 @@
+body{
+	background:black;
+	margin:0;
+	font-family: "Avenir";
+}
+.square {
+	width: 150px;
+	background: purple;
+	padding-bottom: 150px;
+	float: left;
+	margin: 1%;
+	border-radius: 15%;
+	transition: all 0.4s;
+	display:none;
+
+	/*border-radius: 15%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+*/}
+#container
+{
+	margin:20px auto ;
+	max-width: 90vw;
+
+}
+h1{
+	color:white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: nomal;
+	text-transform: uppercase;
+	padding: 20px 0;
+	line-height: 1.1;
+
+}
+
+#dispColor{
+	font-size: 2em;
+
+}
+#stripe
+{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+#gameover
+{
+	width:1000px;
+	height:550px;
+	/*background: linear-gradient(#F3CA6B,#F3706C);*/
+background: steelblue;
+text-transform: uppercase;
+text-align:center;
+color: white;
+position: absolute;
+font-weight: bold;
+font-size: 2.5em;
+top:50px;
+left:150px;
+display: none;
+border-radius: 50px;
+box-shadow: 7px 7px #E9B340;
+
+}
+#gameover>p
+{
+	padding-bottom: 15px;
+}
+.checked
+{
+	color:yellow;
+}
+#close
+{
+	
+	position: absolute;
+	top:25px;
+	right:25px;
+	border-radius: 50%;
+}
+
+#time,#score,button
+{	display: inline;
+	background: none;
+	border:none;
+	text-transform: uppercase;
+	height: 30px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: steelblue;
+	font-size: inherit;
+	margin-right: 25px;
+	padding:none;
+	transition: all 0.5s;
+}
+
+#message
+{
+	width:20%;
+	display: inline-block;
+	font-family: "Avenir";
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color:steelblue;
+	font-weight: 700
+}
+button:hover,#time:hover,#score:hover
+{
+	color: white;
+	background: steelblue;
+}
+.selected
+{	transform: scale(0.8);
+	
+}
+
